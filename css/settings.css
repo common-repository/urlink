@@ -1,0 +1,336 @@
+#totalForm {
+
+}
+#totalForm .button,
+#totalForm #submit {
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+		    border-radius: 3px;
+}
+#totalForm .itemWrapper,
+#totalForm #fieldsWrapper {
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+		    border-radius: 3px;
+	border: 1px dashed #CCCCCC;
+	background: #fefefe;
+	padding: 15px;
+	margin-top: 13px;	
+	position: relative;
+}
+#totalForm .itemWrapper {
+	overflow: hidden;
+	min-height: 35px;
+}
+
+#totalForm .placeholder {
+    border: 1px dashed #cccccc;
+	height: 30px;
+	margin-bottom: 9px;
+}
+#totalForm .metaKey, 
+#totalForm .sidebar {
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+		    border-radius: 3px;
+	border: 1px solid #ccc;
+	background-color: #f5f5f5;
+	*background-color: #f0f0f0;
+	background-image: -ms-linear-gradient(top, #ffffff, #f0f0f0);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f0f0f0));
+	background-image: -webkit-linear-gradient(top, #ffffff, #f0f0f0);
+	background-image: -o-linear-gradient(top, #ffffff, #f0f0f0);
+	background-image: linear-gradient(top, #ffffff, #f0f0f0);
+	background-image: -moz-linear-gradient(top, #ffffff, #f0f0f0);
+	background-repeat: repeat-x;
+	border: 1px solid #cccccc;
+	padding: 5px 12px;
+	margin-bottom: 9px;
+	position: relative;
+    cursor: move;
+}
+#totalForm .editLink,
+#totalForm .deleteLink,
+#totalForm .editLink {
+    margin-left: 9px;
+    text-align: right;
+}
+#totalForm .metaKey {
+    float: left;
+    margin: 0 9px 5px 0;
+    padding: 0 9px;
+	text-shadow: 1px 0 #ffffff;
+}
+#totalForm #itemWrapper1 .metaKey {
+	background-image: none
+}
+#totalForm .fieldType {
+    color: #BBBBBB;
+    float: right;
+    font-size: 9px;
+    letter-spacing: 1px;
+    margin-left: 9px;
+    text-transform: uppercase;
+	position: absolute;
+	right: 10px;
+	top: 5px;
+}
+#totalForm .fieldName {
+    font-weight: bold;
+}
+#totalForm .fieldName,
+#totalForm .fieldType {
+    text-shadow: 1px 1px #FFFFFF;
+}
+#totalForm a {
+	text-decoration: none;
+}
+#totalForm .fieldEdit,
+#totalForm .fieldDelete {
+    margin-left: 5px;
+}
+#totalForm .editDiv li {
+    border-top: 1px dashed #E5E5E5;
+    margin-top: 5px;
+    padding-top: 5px;
+	margin-bottom: 10px;
+}
+#totalForm .editDiv .fieldCancel {
+	margin-left: 10px;
+}
+#totalForm .editDiv label {
+    display: block;
+    font-size: 11px;
+    font-weight: bold;
+}
+#totalForm textarea, 
+#totalForm input[type="text"] {
+    border-color: #ddd;
+	display: block;
+}
+#totalForm textarea {
+    width: 98%;
+}
+#totalForm .multitext {
+    margin-bottom: 4px;
+}
+#totalForm .optionImage {
+    display: block; 
+	margin-bottom: 8px;
+}
+#totalForm .removeImage {
+    display: none; 
+}
+#totalForm .showRemove {
+    display: inline;
+	margin-left: 7px;
+}
+
+
+
+/* Table  ------------------------------------------------ */
+#uppSettings {
+    margin-right: 30px;
+    margin-top: 30px;
+}
+#uppSettings .form-table td {
+    border-bottom: 1px dashed #f2f2f2;
+    padding: 18px 0;
+}
+#uppSettings tr:last-child td {
+    border-bottom: 0 dashed #DDDDDD;
+
+}
+#uppSettings .form-table th {
+    padding: 18px;
+}
+
+
+
+/* Tabs. ------------------------------------------------ */
+.tabbable:after {
+	clear: both;
+}
+.tabbable:before, .tabbable:after {
+    content: "";
+    display: table;
+}
+.nav-tabs {
+    list-style: none outside none;
+    margin-top: 38px;
+}
+.tabs-below > .nav-tabs, .tabs-right > .nav-tabs, .tabs-left > .nav-tabs {
+    border-bottom: 0 none;
+}
+.nav-tabs:after, .nav-pills:after {
+    clear: both;
+}
+.nav-tabs:before, .nav-pills:before, .nav-tabs:after, .nav-pills:after {
+    content: "";
+    display: table;
+}
+.nav-tabs:before, .nav-pills:before, .nav-tabs:after, .nav-pills:after {
+    content: "";
+    display: table;
+}
+.tabs-left > .nav-tabs {
+    float: left;
+}
+.tabs-left > .nav-tabs > li, .tabs-right > .nav-tabs > li {
+    float: none;
+}
+.nav-tabs > li {
+    margin-bottom: -1px;
+}
+.tabs-left > .nav-tabs .active, .tabs-left > .nav-tabs .active:hover {
+    border-color: #DDDDDD rgba(255, 255, 255, 0.8) #DDDDDD #DDDDDD;
+}
+.tabs-left > .nav-tabs > li {
+    border-radius: 4px 0 0 4px;
+    margin-right: -1px;
+}
+.tabs-left > .nav-tabs > li, .tabs-right > .nav-tabs > li {
+    margin-bottom: 3px;
+    margin-right: 0;
+    min-width: 74px;
+}
+.nav-tabs > .active > a, .nav-tabs > .active:hover {
+    background-color: #transparent;
+    color: #555555;
+    cursor: default;
+}
+.nav-tabs > li {
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+    color: #999999;
+    cursor: pointer;
+    display: block;
+    font-weight: bold;
+    line-height: 14px;
+    margin-right: 2px;
+    text-shadow: 0 1px 1px #FFFFFF;
+	font-size: 13px;
+}
+.nav-tabs > li > a {
+    text-decoration: none;
+	padding: 8px 55px 8px 20px;
+	display: block;
+}
+.tabs-left > .nav-tabs .active, .tabs-left > .nav-tabs .active:hover {
+	background: none repeat scroll 0 0 rgba(255, 255, 255, 0.8);
+    color: #222222;
+	opacity: 1;
+}
+.tabs-left > .nav-tabs > li {
+    border-radius: 4px 0 0 4px;
+    margin-right: -1px;
+}
+.nav-tabs > li:hover {
+    background-color: #F2F2F2;
+    text-decoration: none;
+}
+.tabs-left > .nav-tabs > li:hover {
+    border-color: #DDDDDD;
+	opacity: 0.5;
+	color: #222222;
+}
+.tabs-left > .nav-tabs .active:hover {
+	background: none repeat scroll 0 0 rgba(255, 255, 255, 0.8);
+}
+.tab-content > .tab-pane {
+    display: none;
+}
+.tab-content > .tab-pane > h3 {
+    display: none;
+}
+.tab-content > .tab-pane .description {
+    color: #777777;
+    display: block;
+    font-size: 11px;
+    font-style: normal;
+	line-height: 16px;
+	margin-top: 6px;
+}
+.tab-content > .active {
+    display: block;
+}
+.tab-content {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.8);
+    border: 1px solid #DDDDDD;
+    min-height: 200px;
+    overflow: hidden;
+    padding: 19px;
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+		    border-radius: 3px;	
+}
+#totalFooter {
+    padding-top: 60px;
+    text-align: center;
+}
+#wpbody-content {
+    background: url("../images/settings.png") repeat-x scroll left top transparent;
+    margin: 0 0 0 -19px;
+    padding-left: 19px;
+	height: 100%;
+}
+.totalInfo {
+	font-size: 11px;
+	text-align: center;
+	color: #ccc;
+}
+
+
+/* jQuery UI ****/
+#totalForm .itemWrapper {
+	padding: 0;
+}
+#totalForm .ui-item {
+	float: left;
+	position: relative;
+	min-height: 26px;
+	margin: 1%;
+	box-shadow: 0 1px 2px #888888;
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+		    border-radius: 3px;
+	background-color: #f5f5f5;
+	*background-color: #ffffff;
+	background-image: -ms-linear-gradient(top, #f0f0f0, #ffffff);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f0f0f0), to(#ffffff));
+	background-image: -webkit-linear-gradient(top, #f0f0f0, #ffffff);
+	background-image: -o-linear-gradient(top, #f0f0f0, #ffffff);
+	background-image: linear-gradient(top, #f0f0f0, #ffffff);
+	background-image: -moz-linear-gradient(top, #f0f0f0, #ffffff);
+	background-repeat: repeat-x;
+}
+#totalForm .ui-resizable-handle {
+    background: none repeat scroll 0 0 #CCCCCC;
+    border: 1px solid #CCCCCC;
+    cursor: w-resize;
+    height: 2px;
+    right: 0;
+    z-index: 9 !important;
+}
+#totalForm .control-item {
+	width: 14px;
+	height: 14px;
+	border:1px solid #d9d9d9;
+	border-radius: 2px;
+	position: absolute;
+	padding: 1px;
+	display: none;
+	cursor: pointer;
+	top: 4px;
+}
+#totalForm .ui-item:hover .control-item  {
+	display: block;
+}
+#totalForm .delete-item {
+    background: url(../images/delete.png) no-repeat scroll center center #F4F4F4;
+	right: 4px;
+}
+#totalForm .item-grid {
+    text-shadow: 1px 1px #fff;
+	padding: 5px;
+}

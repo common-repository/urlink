@@ -1,0 +1,61 @@
+ul.urlink,
+ul.urlink > li {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.urlink-thumbnail {
+	position: relative;	
+}
+.urlink-thumbnail > a.edit {
+	position: absolute;
+	display: none;
+	right: 0;
+	bottom: 0;
+	padding: 0 2px;
+	background: rgba( 0,0,0,0.5);
+	color: #fff;
+	font-size: 11px;
+}
+.urlink-thumbnail > a.edit:hover {
+	background: rgba( 0,0,0, 1);
+	color: #fff;
+}
+.urlink-thumbnail:hover > a.edit {
+	display: block;		
+}
+.urlink-content {
+	font-size: 12px;
+}
+
+/** Default Style **/
+ul.urlink-default > li:before,
+ul.urlink-default > li:after {
+	display: table;
+	content: " ";
+}
+ul.urlink-default > li:after {
+	clear: both;
+}
+ul.urlink-default > li {
+	position: relative;
+	margin-bottom: 10px;
+}
+ul.urlink-default > li .urlink-thumbnail {
+	position: absolute;
+	left: 0;
+}
+ul.urlink-default > li a.urlink-link {
+	font-weight: bold;
+}
+ul.urlink-default.rtl > li .urlink-thumbnail {
+	left: auto;
+	right: 0;
+}
+
+
+/** Grid Style **/
+ul.urlink-grid > li {
+	display: inline-block;
+}

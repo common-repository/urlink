@@ -1,0 +1,37 @@
+#advanced-sortables {
+    margin-top: 40px;
+}
+input[name=url] {
+	padding: 6px 5px;
+}
+label.target {
+	margin-right: 25px;
+}
+
+#popularity-metabox .form-table td {
+	padding: 0;
+	width: 50%;
+  white-space: nowrap;
+  overflow: hidden;	
+}
+#popularity-metabox .form-table td input {
+	margin-left: 10px;
+}
+.link-options .shortcode {
+    border-color: transparent;
+    background: transparent;
+    vertical-align: middle;
+    text-align: right;
+	box-shadow: none;
+	color: #aaa;
+	float: right;
+	padding-right: 2px;
+	font-size: inherit;
+	width: intrinsic;
+}
+
+th.column-clicks,
+td.column-clicks {
+	width: 6%;
+	text-align: right;
+}
